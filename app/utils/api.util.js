@@ -19,5 +19,9 @@ export function everything(path = '', data, headers = {}, options = {}) {
   return Http.GET('EVERYTHING', path, data, headers, options);
 }
 
+export function topHeadlines(path = '', data, headers = {}, options = {}) {
+  return Http.GET('TOP_HEADLINES', path, data, headers, options);
+}
+
 
 

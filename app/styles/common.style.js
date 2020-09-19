@@ -46,6 +46,8 @@ export const FONT_SIZE_SMALL = { ...textStyles.textSM };
 export const fontSizeExtraSmall = { ...textStyles.textXS };
 export const FONT_SIZE_EXTRA_SMALL = { ...textStyles.textXS };
 
+export const FONT_SIZE_SEMI_LARGE = { ...textStyles.textSL };
+
 export const fontSizeLarge = { ...textStyles.textLG };
 export const FONT_SIZE_LARGE = { ...textStyles.textLG };
 
@@ -63,10 +65,10 @@ export const FONT_WEIGHT_BOLD = {
   fontWeight: theme.FONT_WEIGHT_BOLD,
   ...Platform.select({
     ios: {
-      fontFamily: 'Arial',
+      fontFamily: 'Montserrat-Bold',
     },
     android: {
-      fontFamily: 'sans-serif',
+      fontFamily: 'Montserrat-Bold',
     },
   }),
 };

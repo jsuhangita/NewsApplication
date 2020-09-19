@@ -1,5 +1,7 @@
+import {NEWS_API_KEY} from "../configs/env.config";
+
 export const APP_CONFIG_DEFAULT = {
-  access_token: '',
+  access_token: NEWS_API_KEY,
   isLoggedIn: false,
   createdAt: '',
   refresh_token: '',

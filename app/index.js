@@ -10,8 +10,8 @@ import { initializeHTTPInterceptors } from './utils/http.util';
 // CONFIG FOR MAKING NETWORK REQUEST SHOW UP
 // ON DEBUGGER
 // ===========================================
-// GLOBAL.XMLHttpRequest = GLOBAL.originalXMLHttpRequest || GLOBAL.XMLHttpRequest;
-// GLOBAL.FormData = GLOBAL.originalFormData || GLOBAL.FormData;
+GLOBAL.XMLHttpRequest = GLOBAL.originalXMLHttpRequest || GLOBAL.XMLHttpRequest;
+GLOBAL.FormData = GLOBAL.originalFormData || GLOBAL.FormData;
 // ===========================================
 
 const store = initStore();

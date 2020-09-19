@@ -19,7 +19,7 @@ export default StyleSheet.create({
     shadowRadius: 1.5,
     elevation: 3,
     height: (Platform.OS === 'ios' ? 44 : 56),
-    backgroundColor: theme.PRIMARY,
+    backgroundColor: theme.WHITE,
   },
   centerComponent: {
     flex: 10,

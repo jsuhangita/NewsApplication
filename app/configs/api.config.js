@@ -6,6 +6,7 @@ export const {
 export const endpoints = {
   ME: '/me',
   EVERYTHING: '/everything',
+  TOP_HEADLINES:'/top-headlines'
 };
 
 export const mockResponses = env.fixtures || {};

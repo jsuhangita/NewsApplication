@@ -11,30 +11,33 @@ const theme = {
   WHITE_GREY: '#fafafa',
   white: '#FFFFFF',
   black: '#000000',
-  BLACK: '#444444',
+  BLACK: '#272727',
+  LIGHT_BLACK: '#292929',
+  SEMI_LIGHT_BLACK: '#303030',
   YELLOW: '#fdbb11',
+  ORANGE: '#f98004',
   BLUE: '#0e77da',
   RED: '#d43020',
   GREY: '#999999',
-  LIGHT_GREY: '#d8d8d8',
+  LIGHT_GREY: '#F9F9F8',
   DARK_GREY: '#909090',
   grey: '#ccc',
   red: '#f04848',
   paleRed: '#DE5050',
-  rouge: '#98252b',
+  rouge: '#c25b5a',
   buttonDisabledBg: '#FF8E8E',
   lightGrey: 'rgba(43, 43, 43, 0.6)',
-  FADE_BLACK: 'rgba(0, 0, 0, 0.5)',
+  FADE_BLACK: 'rgba(0, 0, 0, 0.7)',
   lightGreyTwo: '#e0e0e0',
-  GREEN: '#49a010',
-  green: '#4ed07d',
+  GREEN: '#22662B',
+  LIGHT_GREEN: '#50A502',
   barBG: '#424242',
   barButton: '#4DD0E1',
   greyStarColor: '#d8d8d8',
   starColor: '#00a6b8',
 
   // Named Color Variables
-  PRIMARY: '#2BAC9A',
+  PRIMARY: '#21409A',
   PRIMARY_DARK: '#2bac9a',
   LIGHT: '#DDDDDD',
   TEXT_PRIMARY: '#444444',
@@ -102,15 +105,16 @@ const theme = {
 
   // fonSizes
   fontSizeXS: Platform.OS === 'ios' ? 11 : 11,
-  FONT_SIZE_XS: Platform.OS === 'ios' ? RFValue(10) : RFValue(10),
+  FONT_SIZE_XS: Platform.OS === 'ios' ? RFValue(8) : RFValue(8),
   fontSizeSmall: Platform.OS === 'ios' ? 13 : 13,
-  FONT_SIZE_SMALL: Platform.OS === 'ios' ? RFValue(14) : RFValue(14),
+  FONT_SIZE_SMALL: Platform.OS === 'ios' ? RFValue(11) : RFValue(11),
   fontSizeNormal: Platform.OS === 'ios' ? 15 : 15,
-  FONT_SIZE_NORMAL: Platform.OS === 'ios' ? RFValue(16) : RFValue(16),
+  FONT_SIZE_NORMAL: Platform.OS === 'ios' ? RFValue(13) : RFValue(13),
   fontSizeMedium: Platform.OS === 'ios' ? 18 : 18,
-  FONT_SIZE_MEDIUM: Platform.OS === 'ios' ? RFValue(17) : RFValue(17),
+  FONT_SIZE_MEDIUM: Platform.OS === 'ios' ? RFValue(15) : RFValue(15),
   fontSizeLarge: Platform.OS === 'ios' ? 24 : 24,
-  FONT_SIZE_LARGE: Platform.OS === 'ios' ? RFValue(25) : RFValue(25),
+  FONT_SIZE_SEMI_LARGE: Platform.OS === 'ios' ? RFValue(18) : RFValue(18),
+  FONT_SIZE_LARGE: Platform.OS === 'ios' ? RFValue(23) : RFValue(23),
   fontSizeXL: Platform.OS === 'ios' ? 24 : 21,
   FONT_SIZE_XL: Platform.OS === 'ios' ? RFValue(24) : RFValue(21),
   fontSizeXXL: Platform.OS === 'ios' ? 39 : 36,
@@ -128,7 +132,7 @@ const theme = {
 
   fontWeightBold: Platform.OS === 'ios' ? '700' : '700',
 
-  placeholderTextColor: 'rgba(0, 0, 0, .38)',
+  placeholderTextColor: '#ffcc00',
   placeholderTextWhite: 'rgba(255,255,255, .38)',
   letterSpacingSmall: 0.8,
   letterSpacingMedium: 1.4,
@@ -137,11 +141,11 @@ const theme = {
   bottomBorderRegular: 1,
 
 
-  PADDING: 16,
-  PADDING_SMALL: 8,
-  PADDING_MEDIUM: 24,
-  PADDING_LARGE: 32,
-  PADDING_EXTRA_SMALL: 5,
+  PADDING: 10,
+  PADDING_SMALL: 6,
+  PADDING_MEDIUM: 17,
+  PADDING_LARGE: 22,
+  PADDING_EXTRA_SMALL: 3,
 
   BORDER_RADIUS: 10,
   BORDER_RADIUS_SMALL: 5,
@@ -154,16 +158,18 @@ const theme = {
   spinnerSizeLarge: Platform.OS === 'ios' ? 'large' : 80,
 
   HEADER_HEIGHT: Platform.OS === 'ios' ? 44 : 56,
+
+  MARGIN_BOTTOM_MODAL: Platform.OS === 'ios' ? 35 : 10,
 };
 
 const FONT_WEIGHT_NORMAL = {
-  fontWeight: theme.FONT_WEIGHT_REGULAR,
+  fontWeight: theme.FONT_WEIGHT_LIGHT,
   ...Platform.select({
     ios: {
-      fontFamily: 'Arial',
+      fontFamily: 'Exo2-Regular',
     },
     android: {
-      fontFamily: 'sans-serif',
+      fontFamily: 'Exo2-Regular',
     },
   }),
 };
@@ -192,6 +198,11 @@ const textStyles = {
   textMD: {
     ...textBasic,
     fontSize: theme.FONT_SIZE_MEDIUM,
+  },
+
+  textSL: {
+    ...textBasic,
+    fontSize: theme.FONT_SIZE_SEMI_LARGE,
   },
 
   textLG: {

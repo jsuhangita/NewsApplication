@@ -119,7 +119,7 @@ export default function Header(props) {
 
   const barStyle = getPlatform === 'ios' ? 'dark-content' : 'default';
   return (
-    <SafeAreaView style={{ backgroundColor: theme.PRIMARY }}>
+    <SafeAreaView style={{ backgroundColor: theme.WHITE }}>
       <Animated.View
         {...otherProps}
         style={[
@@ -160,7 +160,7 @@ Header.defaultProps = {
   statusBarProps: {},
   children: null,
   placement: getPlatform === 'ios' ? 'center' : 'left',
-  backgroundColor: theme.PRIMARY,
+  backgroundColor: theme.WHITE,
   opacity: 1,
   zIndex: 1,
 };

@@ -2,12 +2,13 @@ import { enableScreens } from 'react-native-screens';
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 import TestScreen from "../views/TestScreen";
 import LoadingScreen from '../views/LoadingScreen.page';
+import AppDrawer from './AppDrawer.routes'
 
 enableScreens();
 
 const AppNavigator = createSwitchNavigator({
   LoadingScreen,
-  App:TestScreen,
+  App:AppDrawer,
 }, {
   initialRouteName: 'LoadingScreen',
 });
