@@ -17,12 +17,12 @@ import { initializeHTTPInterceptors } from './utils/http.util';
 const store = initStore();
 initializeHTTPInterceptors(store);
 
-const baseReactNative = () => (
+const NewsApplication = () => (
   <Provider store={store}>
     <App />
   </Provider>
 );
 
-export default baseReactNative;
+export default NewsApplication;
 
-AppRegistry.registerComponent(appName, () => baseReactNative);
+AppRegistry.registerComponent(appName, () => NewsApplication);

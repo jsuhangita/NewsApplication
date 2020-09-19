@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* baseReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* baseReactNativeTests.m */; };
+		00E356F31AD99517003FC87E /* NewsApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NewsApplicationTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -15,11 +15,11 @@
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* baseReactNativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* baseReactNativeTests.m */; };
-		64F13B59CFDA05573F0C80B7 /* libPods-baseReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F5F3343C71CCA41BAD72A8 /* libPods-baseReactNativeTests.a */; };
-		7303B5F2A6B6377AF339FDBF /* libPods-baseReactNative-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7BD8C7B172C139D3BE5C56 /* libPods-baseReactNative-tvOSTests.a */; };
-		C753DD1598603268EDD3BF64 /* libPods-baseReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90609269D22654D7D16B7F6A /* libPods-baseReactNative.a */; };
-		D23FC17B1B459792DC314771 /* libPods-baseReactNative-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1CA60BF1C0E1464F76E445 /* libPods-baseReactNative-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* NewsApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* NewsApplicationTests.m */; };
+		64F13B59CFDA05573F0C80B7 /* libPods-NewsApplicationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01F5F3343C71CCA41BAD72A8 /* libPods-NewsApplicationTests.a */; };
+		7303B5F2A6B6377AF339FDBF /* libPods-NewsApplication-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7BD8C7B172C139D3BE5C56 /* libPods-NewsApplication-tvOSTests.a */; };
+		C753DD1598603268EDD3BF64 /* libPods-NewsApplication.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90609269D22654D7D16B7F6A /* libPods-NewsApplication.a */; };
+		D23FC17B1B459792DC314771 /* libPods-NewsApplication-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1CA60BF1C0E1464F76E445 /* libPods-NewsApplication-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,46 +28,46 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = baseReactNative;
+			remoteInfo = NewsApplication;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "baseReactNative-tvOS";
+			remoteInfo = "NewsApplication-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* baseReactNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = baseReactNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* NewsApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* baseReactNativeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseReactNativeTests.m; sourceTree = "<group>"; };
-		01F5F3343C71CCA41BAD72A8 /* libPods-baseReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-baseReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B53AFF4189FD7D1D538B886 /* Pods-baseReactNative-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseReactNative-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-baseReactNative-tvOSTests/Pods-baseReactNative-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* baseReactNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = baseReactNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = baseReactNative/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = baseReactNative/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* NewsApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsApplicationTests.m; sourceTree = "<group>"; };
+		01F5F3343C71CCA41BAD72A8 /* libPods-NewsApplicationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsApplicationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B53AFF4189FD7D1D538B886 /* Pods-NewsApplication-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApplication-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-NewsApplication-tvOSTests/Pods-NewsApplication-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* NewsApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NewsApplication/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NewsApplication/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = baseReactNative/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = baseReactNative/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = baseReactNative/main.m; sourceTree = "<group>"; };
-		1781B074C068A024B61F8FB0 /* Pods-baseReactNative.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseReactNative.debug.xcconfig"; path = "Target Support Files/Pods-baseReactNative/Pods-baseReactNative.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* baseReactNative-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "baseReactNative-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* baseReactNative-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baseReactNative-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B72C1D0E30EAB3B1CD2DE33 /* Pods-baseReactNative.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseReactNative.release.xcconfig"; path = "Target Support Files/Pods-baseReactNative/Pods-baseReactNative.release.xcconfig"; sourceTree = "<group>"; };
-		5607D0D8BA6F0DC8E2C86F33 /* Pods-baseReactNative-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseReactNative-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-baseReactNative-tvOSTests/Pods-baseReactNative-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		739621DA4399A2AE1214762A /* Pods-baseReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseReactNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-baseReactNativeTests/Pods-baseReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7E3058F797FF0462A05890A5 /* Pods-baseReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseReactNativeTests.release.xcconfig"; path = "Target Support Files/Pods-baseReactNativeTests/Pods-baseReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
-		8A7BD8C7B172C139D3BE5C56 /* libPods-baseReactNative-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-baseReactNative-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		90609269D22654D7D16B7F6A /* libPods-baseReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-baseReactNative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E1CA60BF1C0E1464F76E445 /* libPods-baseReactNative-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-baseReactNative-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD5D07707368ED6CD65A70F7 /* Pods-baseReactNative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseReactNative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-baseReactNative-tvOS/Pods-baseReactNative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		CEE647EC24064D92000C3F7F /* baseReactNative.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = baseReactNative.entitlements; path = baseReactNative/baseReactNative.entitlements; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = NewsApplication/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = NewsApplication/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NewsApplication/main.m; sourceTree = "<group>"; };
+		1781B074C068A024B61F8FB0 /* Pods-NewsApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApplication.debug.xcconfig"; path = "Target Support Files/Pods-NewsApplication/Pods-NewsApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* NewsApplication-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NewsApplication-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* NewsApplication-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NewsApplication-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B72C1D0E30EAB3B1CD2DE33 /* Pods-NewsApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApplication.release.xcconfig"; path = "Target Support Files/Pods-NewsApplication/Pods-NewsApplication.release.xcconfig"; sourceTree = "<group>"; };
+		5607D0D8BA6F0DC8E2C86F33 /* Pods-NewsApplication-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApplication-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-NewsApplication-tvOSTests/Pods-NewsApplication-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		739621DA4399A2AE1214762A /* Pods-NewsApplicationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApplicationTests.debug.xcconfig"; path = "Target Support Files/Pods-NewsApplicationTests/Pods-NewsApplicationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E3058F797FF0462A05890A5 /* Pods-NewsApplicationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApplicationTests.release.xcconfig"; path = "Target Support Files/Pods-NewsApplicationTests/Pods-NewsApplicationTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A7BD8C7B172C139D3BE5C56 /* libPods-NewsApplication-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsApplication-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90609269D22654D7D16B7F6A /* libPods-NewsApplication.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsApplication.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1CA60BF1C0E1464F76E445 /* libPods-NewsApplication-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NewsApplication-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD5D07707368ED6CD65A70F7 /* Pods-NewsApplication-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApplication-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-NewsApplication-tvOS/Pods-NewsApplication-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CEE647EC24064D92000C3F7F /* NewsApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = NewsApplication.entitlements; path = NewsApplication/NewsApplication.entitlements; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FAA137BF9217CEEAD48D3822 /* Pods-baseReactNative-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-baseReactNative-tvOS.release.xcconfig"; path = "Target Support Files/Pods-baseReactNative-tvOS/Pods-baseReactNative-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FAA137BF9217CEEAD48D3822 /* Pods-NewsApplication-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsApplication-tvOS.release.xcconfig"; path = "Target Support Files/Pods-NewsApplication-tvOS/Pods-NewsApplication-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F13B59CFDA05573F0C80B7 /* libPods-baseReactNativeTests.a in Frameworks */,
+				64F13B59CFDA05573F0C80B7 /* libPods-NewsApplicationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C753DD1598603268EDD3BF64 /* libPods-baseReactNative.a in Frameworks */,
+				C753DD1598603268EDD3BF64 /* libPods-NewsApplication.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D23FC17B1B459792DC314771 /* libPods-baseReactNative-tvOS.a in Frameworks */,
+				D23FC17B1B459792DC314771 /* libPods-NewsApplication-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,20 +99,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7303B5F2A6B6377AF339FDBF /* libPods-baseReactNative-tvOSTests.a in Frameworks */,
+				7303B5F2A6B6377AF339FDBF /* libPods-NewsApplication-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* baseReactNativeTests */ = {
+		00E356EF1AD99517003FC87E /* NewsApplicationTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* baseReactNativeTests.m */,
+				00E356F21AD99517003FC87E /* NewsApplicationTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = baseReactNativeTests;
+			path = NewsApplicationTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -123,10 +123,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* baseReactNative */ = {
+		13B07FAE1A68108700A75B9A /* NewsApplication */ = {
 			isa = PBXGroup;
 			children = (
-				CEE647EC24064D92000C3F7F /* baseReactNative.entitlements */,
+				CEE647EC24064D92000C3F7F /* NewsApplication.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -135,7 +135,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = baseReactNative;
+			name = NewsApplication;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -143,10 +143,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				90609269D22654D7D16B7F6A /* libPods-baseReactNative.a */,
-				9E1CA60BF1C0E1464F76E445 /* libPods-baseReactNative-tvOS.a */,
-				8A7BD8C7B172C139D3BE5C56 /* libPods-baseReactNative-tvOSTests.a */,
-				01F5F3343C71CCA41BAD72A8 /* libPods-baseReactNativeTests.a */,
+				90609269D22654D7D16B7F6A /* libPods-NewsApplication.a */,
+				9E1CA60BF1C0E1464F76E445 /* libPods-NewsApplication-tvOS.a */,
+				8A7BD8C7B172C139D3BE5C56 /* libPods-NewsApplication-tvOSTests.a */,
+				01F5F3343C71CCA41BAD72A8 /* libPods-NewsApplicationTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -162,9 +162,9 @@
 			isa = PBXGroup;
 			children = (
 				CEE647ED24064ED3000C3F7F /* Resources */,
-				13B07FAE1A68108700A75B9A /* baseReactNative */,
+				13B07FAE1A68108700A75B9A /* NewsApplication */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* baseReactNativeTests */,
+				00E356EF1AD99517003FC87E /* NewsApplicationTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				A4236F2B3BB80FC5D44675AB /* Pods */,
@@ -177,10 +177,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* baseReactNative.app */,
-				00E356EE1AD99517003FC87E /* baseReactNativeTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* baseReactNative-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* baseReactNative-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* NewsApplication.app */,
+				00E356EE1AD99517003FC87E /* NewsApplicationTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* NewsApplication-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* NewsApplication-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,14 +188,14 @@
 		A4236F2B3BB80FC5D44675AB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1781B074C068A024B61F8FB0 /* Pods-baseReactNative.debug.xcconfig */,
-				3B72C1D0E30EAB3B1CD2DE33 /* Pods-baseReactNative.release.xcconfig */,
-				AD5D07707368ED6CD65A70F7 /* Pods-baseReactNative-tvOS.debug.xcconfig */,
-				FAA137BF9217CEEAD48D3822 /* Pods-baseReactNative-tvOS.release.xcconfig */,
-				5607D0D8BA6F0DC8E2C86F33 /* Pods-baseReactNative-tvOSTests.debug.xcconfig */,
-				0B53AFF4189FD7D1D538B886 /* Pods-baseReactNative-tvOSTests.release.xcconfig */,
-				739621DA4399A2AE1214762A /* Pods-baseReactNativeTests.debug.xcconfig */,
-				7E3058F797FF0462A05890A5 /* Pods-baseReactNativeTests.release.xcconfig */,
+				1781B074C068A024B61F8FB0 /* Pods-NewsApplication.debug.xcconfig */,
+				3B72C1D0E30EAB3B1CD2DE33 /* Pods-NewsApplication.release.xcconfig */,
+				AD5D07707368ED6CD65A70F7 /* Pods-NewsApplication-tvOS.debug.xcconfig */,
+				FAA137BF9217CEEAD48D3822 /* Pods-NewsApplication-tvOS.release.xcconfig */,
+				5607D0D8BA6F0DC8E2C86F33 /* Pods-NewsApplication-tvOSTests.debug.xcconfig */,
+				0B53AFF4189FD7D1D538B886 /* Pods-NewsApplication-tvOSTests.release.xcconfig */,
+				739621DA4399A2AE1214762A /* Pods-NewsApplicationTests.debug.xcconfig */,
+				7E3058F797FF0462A05890A5 /* Pods-NewsApplicationTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -211,9 +211,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* baseReactNativeTests */ = {
+		00E356ED1AD99517003FC87E /* NewsApplicationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "baseReactNativeTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NewsApplicationTests" */;
 			buildPhases = (
 				8CC30F9C3E71D54D38E913AF /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -225,14 +225,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = baseReactNativeTests;
-			productName = baseReactNativeTests;
-			productReference = 00E356EE1AD99517003FC87E /* baseReactNativeTests.xctest */;
+			name = NewsApplicationTests;
+			productName = NewsApplicationTests;
+			productReference = 00E356EE1AD99517003FC87E /* NewsApplicationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* baseReactNative */ = {
+		13B07F861A680F5B00A75B9A /* NewsApplication */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "baseReactNative" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NewsApplication" */;
 			buildPhases = (
 				915C1B26369171EC97E8A483 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -246,14 +246,14 @@
 			);
 			dependencies = (
 			);
-			name = baseReactNative;
-			productName = baseReactNative;
-			productReference = 13B07F961A680F5B00A75B9A /* baseReactNative.app */;
+			name = NewsApplication;
+			productName = NewsApplication;
+			productReference = 13B07F961A680F5B00A75B9A /* NewsApplication.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* baseReactNative-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* NewsApplication-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "baseReactNative-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NewsApplication-tvOS" */;
 			buildPhases = (
 				3B5A6E699DC4A62E747C77E3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -266,14 +266,14 @@
 			);
 			dependencies = (
 			);
-			name = "baseReactNative-tvOS";
-			productName = "baseReactNative-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* baseReactNative-tvOS.app */;
+			name = "NewsApplication-tvOS";
+			productName = "NewsApplication-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* NewsApplication-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* baseReactNative-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* NewsApplication-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "baseReactNative-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NewsApplication-tvOSTests" */;
 			buildPhases = (
 				FA5A7D790D6A369124CB0E65 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -285,9 +285,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "baseReactNative-tvOSTests";
-			productName = "baseReactNative-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* baseReactNative-tvOSTests.xctest */;
+			name = "NewsApplication-tvOSTests";
+			productName = "NewsApplication-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* NewsApplication-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -314,7 +314,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "baseReactNative" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NewsApplication" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -328,10 +328,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* baseReactNative */,
-				00E356ED1AD99517003FC87E /* baseReactNativeTests */,
-				2D02E47A1E0B4A5D006451C7 /* baseReactNative-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* baseReactNative-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* NewsApplication */,
+				00E356ED1AD99517003FC87E /* NewsApplicationTests */,
+				2D02E47A1E0B4A5D006451C7 /* NewsApplication-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* NewsApplication-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -414,7 +414,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-baseReactNative-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NewsApplication-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -436,7 +436,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-baseReactNativeTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NewsApplicationTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,7 +458,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-baseReactNative-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NewsApplication-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -471,7 +471,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-baseReactNative/Pods-baseReactNative-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-NewsApplication/Pods-NewsApplication-resources.sh",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
 				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
@@ -510,7 +510,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-baseReactNative/Pods-baseReactNative-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewsApplication/Pods-NewsApplication-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FA5A7D790D6A369124CB0E65 /* [CP] Check Pods Manifest.lock */ = {
@@ -528,7 +528,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-baseReactNative-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-NewsApplication-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -580,7 +580,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* baseReactNativeTests.m in Sources */,
+				00E356F31AD99517003FC87E /* NewsApplicationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,7 +606,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* baseReactNativeTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* NewsApplicationTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,12 +615,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* baseReactNative */;
+			target = 13B07F861A680F5B00A75B9A /* NewsApplication */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* baseReactNative-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* NewsApplication-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -632,7 +632,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = baseReactNative;
+			path = NewsApplication;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -640,14 +640,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 739621DA4399A2AE1214762A /* Pods-baseReactNativeTests.debug.xcconfig */;
+			baseConfigurationReference = 739621DA4399A2AE1214762A /* Pods-NewsApplicationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = baseReactNativeTests/Info.plist;
+				INFOPLIST_FILE = NewsApplicationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -657,17 +657,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baseReactNative.app/baseReactNative";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApplication.app/NewsApplication";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7E3058F797FF0462A05890A5 /* Pods-baseReactNativeTests.release.xcconfig */;
+			baseConfigurationReference = 7E3058F797FF0462A05890A5 /* Pods-NewsApplicationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = baseReactNativeTests/Info.plist;
+				INFOPLIST_FILE = NewsApplicationTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -677,19 +677,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baseReactNative.app/baseReactNative";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApplication.app/NewsApplication";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1781B074C068A024B61F8FB0 /* Pods-baseReactNative.debug.xcconfig */;
+			baseConfigurationReference = 1781B074C068A024B61F8FB0 /* Pods-NewsApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = baseReactNative/baseReactNative.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NewsApplication/NewsApplication.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = baseReactNative/Info.plist;
+				INFOPLIST_FILE = NewsApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -697,19 +697,19 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = baseReactNative;
+				PRODUCT_NAME = NewsApplication;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B72C1D0E30EAB3B1CD2DE33 /* Pods-baseReactNative.release.xcconfig */;
+			baseConfigurationReference = 3B72C1D0E30EAB3B1CD2DE33 /* Pods-NewsApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = baseReactNative/baseReactNative.entitlements;
+				CODE_SIGN_ENTITLEMENTS = NewsApplication/NewsApplication.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = baseReactNative/Info.plist;
+				INFOPLIST_FILE = NewsApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -717,14 +717,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = baseReactNative;
+				PRODUCT_NAME = NewsApplication;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD5D07707368ED6CD65A70F7 /* Pods-baseReactNative-tvOS.debug.xcconfig */;
+			baseConfigurationReference = AD5D07707368ED6CD65A70F7 /* Pods-NewsApplication-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -735,14 +735,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "baseReactNative-tvOS/Info.plist";
+				INFOPLIST_FILE = "NewsApplication-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.baseReactNative-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.NewsApplication-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -752,7 +752,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAA137BF9217CEEAD48D3822 /* Pods-baseReactNative-tvOS.release.xcconfig */;
+			baseConfigurationReference = FAA137BF9217CEEAD48D3822 /* Pods-NewsApplication-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -763,14 +763,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "baseReactNative-tvOS/Info.plist";
+				INFOPLIST_FILE = "NewsApplication-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.baseReactNative-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.NewsApplication-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -780,7 +780,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5607D0D8BA6F0DC8E2C86F33 /* Pods-baseReactNative-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 5607D0D8BA6F0DC8E2C86F33 /* Pods-NewsApplication-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -790,24 +790,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "baseReactNative-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "NewsApplication-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.baseReactNative-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.NewsApplication-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baseReactNative-tvOS.app/baseReactNative-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApplication-tvOS.app/NewsApplication-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0B53AFF4189FD7D1D538B886 /* Pods-baseReactNative-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 0B53AFF4189FD7D1D538B886 /* Pods-NewsApplication-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -817,17 +817,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "baseReactNative-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "NewsApplication-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.baseReactNative-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.NewsApplication-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/baseReactNative-tvOS.app/baseReactNative-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewsApplication-tvOS.app/NewsApplication-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -934,7 +934,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "baseReactNativeTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "NewsApplicationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -943,7 +943,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "baseReactNative" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "NewsApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -952,7 +952,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "baseReactNative-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NewsApplication-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -961,7 +961,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "baseReactNative-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "NewsApplication-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -970,7 +970,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "baseReactNative" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "NewsApplication" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

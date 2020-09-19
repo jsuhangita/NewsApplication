@@ -1,1 +1,1 @@
-baseReactNative
+NewsApplication
