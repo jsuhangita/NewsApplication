@@ -30,7 +30,7 @@ const Label = (props) => {
     (grey) && { color: theme.GREY },
     styleOverride,
   ];
-  const iconColor = white ? theme.white : theme.PRIMARY;
+  const iconColor = white ? theme.white : theme.GREY;
   const iconStyles = [
     styles.label__iconContainer,
     iconStyleOverride,

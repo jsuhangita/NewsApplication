@@ -206,7 +206,7 @@ Input.defaultProps = {
   suffixContainerStyle: {},
   textStyle: {},
   selectionColor: theme.primary,
-  placeholderTextColor: theme.placeholderTextColor,
+  placeholderTextColor: theme.GREY,
   label: null,
   affix: null,
   iconAffix: null,

@@ -8,9 +8,11 @@ import { theme } from '../../../styles/core.style';
 const styles = StyleSheet.create({
   safeArea: {
     flex: 1,
+    backgroundColor:theme.WHITE,
   },
   container: {
     flex: 1,
+    backgroundColor:theme.WHITE,
   },
 });
 

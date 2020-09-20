@@ -73,6 +73,7 @@ export default class HomeScreen extends Component{
       },
       rightComponent:{
         icon:'search',
+        onPress: ()=>{navigation.navigate('SearchNewsScreen')}
       }
     }
     const { index, routes, loading } = this.state;
