@@ -37,3 +37,16 @@ export async function getDeviceLocation(onSuccess = noop, onError = noop) {
       { timeout: 1500 });
   }
 }
+
+export function youtubeIdParser(url) {
+  const regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+  const match = url.match(regExp);
+  return (match && match[7].length === 11) ? match[7] : false;
+}
+
+export function getUrlHostname(url) {
+  // run against regex
+  const matches = url.match(/^https?\:\/\/([^\/?#]+)(?:[\/?#]|$)/i);
+  // extract hostname (will be null if no match is found)
+  return matches && matches[1];
+}

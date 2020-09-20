@@ -15,6 +15,8 @@ export default class HomeDisplayScreenComponent  extends Component{
         <ScrollView>
           <NewsBannerComponent/>
           <NewsListComponent/>
+          <NewsListComponent category={'technology'}/>
+          <NewsListComponent category={'health'}/>
         </ScrollView>
       </Container>
     )

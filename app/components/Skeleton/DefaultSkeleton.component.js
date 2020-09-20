@@ -50,7 +50,7 @@ export default class DefaultSkeleton extends PureComponent {
       <View style={styles.indicatorContainer}>
         {
           internetStatus
-            ? <ActivityIndicator size="large" color="#ffcc00" />
+            ? <ActivityIndicator size="large" color={theme.PRIMARY} />
             : (
               <View style={styles.textContainer}>
                 <Text style={styles.title}>Please check your internet connection</Text>

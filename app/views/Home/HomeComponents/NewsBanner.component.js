@@ -4,7 +4,7 @@ import {theme} from "../../../styles/core.style";
 import Swiper from 'react-native-swiper'
 import {Image, Text} from "../../../components/base";
 import {getTopHeadline} from "../../../requests/Home.request";
-import { map } from 'lodash';
+import { map,isNull } from 'lodash';
 import {viewportWidth} from "../../../utils/device.util";
 import moment from "moment";
 
@@ -39,7 +39,7 @@ export default class NewsBannerComponent extends Component {
     return(
       <View key={publishedAt} style={styles.imageContainer}>
         <ImageBackground
-          source={{uri:urlToImage}}
+          source={{uri:isNull(urlToImage)?'':urlToImage}}
           style={styles.imageContainer}
         >
           <View style={styles.contentContainer}>
@@ -68,8 +68,7 @@ export default class NewsBannerComponent extends Component {
     return (
       <View style={styles.container}>
         <Swiper
-          autoplay
-          autoplayTimeout={6}
+          removeClippedSubviews={false}
           activeDotColor={theme.PRIMARY}
           dotColor={theme.GREY}
         >

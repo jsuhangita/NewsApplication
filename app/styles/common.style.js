@@ -73,6 +73,18 @@ export const FONT_WEIGHT_BOLD = {
   }),
 };
 
+export const FONT_WEIGHT_SEMI_BOLD = {
+  fontWeight: theme.FONT_WEIGHT_MEDIUM,
+  ...Platform.select({
+    ios: {
+      fontFamily: 'Montserrat-SemiBold',
+    },
+    android: {
+      fontFamily: 'Montserrat-SemiBold',
+    },
+  }),
+};
+
 export const FONT_WEIGHT_EXTRA_BOLD = {
   fontWeight: theme.FONT_WEIGHT_EXTRA_BOLD,
   ...Platform.select({

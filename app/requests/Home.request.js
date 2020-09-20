@@ -8,3 +8,12 @@ export async function getTopHeadline() {
     throw e
   }
 }
+
+export async function getNews(payload) {
+  const { category='business' } = payload;
+  try {
+    return  await api.topHeadlines(`?country=id&pageSize=3&category=${category}`)
+  }catch (e) {
+    throw e
+  }
+}

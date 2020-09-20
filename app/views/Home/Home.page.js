@@ -31,6 +31,16 @@ export default class HomeScreen extends Component{
           <HomeDisplayScreenComponent/>
         )
       }
+      case 'trending':{
+        return(
+          <HomeDisplayScreenComponent/>
+        )
+      }
+      case 'shop':{
+        return(
+          <HomeDisplayScreenComponent/>
+        )
+      }
       default:
         return null;
     }

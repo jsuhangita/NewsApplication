@@ -7,7 +7,7 @@ import {
   FONT_SIZE_MEDIUM,
   FONT_SIZE_NORMAL, FONT_SIZE_SEMI_LARGE,
   FONT_SIZE_SMALL, FONT_WEIGHT_BOLD,
-  FONT_WEIGHT_EXTRA_BOLD,
+  FONT_WEIGHT_EXTRA_BOLD, FONT_WEIGHT_SEMI_BOLD,
 } from '../../../styles/common.style';
 import {theme} from "../../../styles/core.style";
 
@@ -27,7 +27,7 @@ const Text = (props) => {
 
     children,
     color,
-
+    semiBold,
     style,
 
     ...others
@@ -44,6 +44,7 @@ const Text = (props) => {
         semiLarge&&styles.semiLarge,
         large && styles.large,
         bold && styles.bold,
+        semiBold&&styles.semiBold,
         extraBold && styles.extraBold,
         { color: color || (secondary ? theme.BLACK : theme.PRIMARY) },
         style,
@@ -62,6 +63,7 @@ Text.propTypes = {
   medium: PropTypes.bool,
   large: PropTypes.bool,
   bold: PropTypes.bool,
+  semiBold:PropTypes.bool,
   extraBold: PropTypes.bool,
   semiLarge:PropTypes.bool,
 
@@ -81,6 +83,7 @@ Text.defaultProps = {
   medium: false,
   semiLarge:false,
   large: false,
+  semiBold:false,
   bold: false,
   extraBold: false,
 
@@ -119,6 +122,10 @@ const styles = StyleSheet.create({
 
   large: {
     ...FONT_SIZE_LARGE,
+  },
+
+  semiBold:{
+    ...FONT_WEIGHT_SEMI_BOLD
   },
 
   bold: {
